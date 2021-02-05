@@ -14,12 +14,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         loader: 'ts-loader',
-        exclude: /node_modules/,
-        options: {
-          compilerOptions: {
-            declarationDir: path.resolve(__dirname, 'dist/types')
-          }
-        }
+        exclude: /node_modules/
       },
       {
         test: /\.s[ac]ss$/i,
