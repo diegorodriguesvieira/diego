@@ -1,6 +1,6 @@
 {
   "name": "drv-components",
-  "version": "13.0.0",
+  "version": "14.0.0",
   "main": "dist/drv-components.bundle.js",
   "repository": "https://github.com/diegorodriguesvieira/diego",
   "author": "Diego",
