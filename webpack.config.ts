@@ -17,7 +17,7 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           compilerOptions: {
-            declarationDir: path.resolve(__dirname, 'dist')
+            declarationDir: path.resolve(__dirname, 'dist/types')
           }
         }
       },

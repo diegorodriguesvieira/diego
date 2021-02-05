@@ -4308,6 +4308,17 @@ downshift@^6.0.6:
     prop-types "^15.7.2"
     react-is "^17.0.1"
 
+drv-components@15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/drv-components/-/drv-components-15.0.0.tgz#06bd65612fea49904c39f5b8f9d805e51cba2a8d"
+  integrity sha512-QYGOc/aLAzXO93VnZDn1K7JWhgmXIpmdmiG79zh4Bs87AQ+Dht2rMYerjyTPX7MpCpFDf9gNEgvsLupUl4m6RA==
+  dependencies:
+    "@types/react" "^17.0.1"
+    "@types/react-dom" "^17.0.0"
+    react "^17.0.1"
+    react-dom "^17.0.1"
+    typescript "^4.1.3"
+
 duplexer@^0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.2.tgz#3abe43aef3835f8ae077d136ddce0f276b0400e6"
