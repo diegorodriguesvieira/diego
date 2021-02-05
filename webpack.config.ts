@@ -1,4 +1,5 @@
-import path from 'path';
+const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: './src/index.ts',
@@ -12,8 +13,13 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/
+        loader: 'ts-loader',
+        exclude: /node_modules/,
+        options: {
+          compilerOptions: {
+            declarationDir: path.resolve(__dirname, 'dist')
+          }
+        }
       },
       {
         test: /\.s[ac]ss$/i,
@@ -27,5 +33,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js']
-  }
+  },
+  plugins: [new CleanWebpackPlugin()]
 };
