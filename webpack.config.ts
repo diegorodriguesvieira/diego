@@ -4,8 +4,8 @@ module.exports = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'react-ui-components.bundle.js',
-    library: '@diego/react-ui-components',
+    filename: 'drv-components.bundle.js',
+    library: 'drv-components',
     libraryTarget: 'umd'
   },
   module: {

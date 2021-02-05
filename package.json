@@ -1,7 +1,7 @@
 {
-  "name": "@diego/react-ui-components",
+  "name": "drv-components",
   "version": "12.0.0",
-  "main": "dist/react-ui-components.bundle.js",
+  "main": "dist/drv-components.bundle.js",
   "repository": "https://github.com/diegorodriguesvieira/diego",
   "author": "Diego",
   "license": "MIT",
